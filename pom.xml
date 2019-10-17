@@ -3,15 +3,13 @@
   <groupId>test</groupId>
   <artifactId>MultiplyConcat</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-  <dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-api</artifactId>
-    <version>5.5.1</version>
-	<scope>test</scope>
-</dependency>
 
- <build>
+
+  <properties>
+   <maven.compiler.release>11</maven.compiler.release>
+  </properties>
+     
+  <build>
     <pluginManagement>
         <plugins>
             <plugin>
@@ -22,6 +20,18 @@
          </plugins>
     </pluginManagement>
 </build>
+
+
+  <dependencies>
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.5.1</version>
+	<scope>test</scope>
+</dependency>
+
+  
+
 
 <dependency>
   <groupId>junit</groupId>
